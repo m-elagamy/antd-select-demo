@@ -49,6 +49,7 @@ export default function Home() {
               options={options}
               value={value}
               onChange={(v) => setValue(v)}
+              virtual={false}
             />
           </div>
           <div className="flex items-center gap-2">
