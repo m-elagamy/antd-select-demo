@@ -18,6 +18,13 @@ export default function Home() {
     { label: "Juniper", value: "juniper" },
     { label: "Kestrel", value: "kestrel" },
     { label: "Lagoon", value: "lagoon" },
+    { label: "Meadow", value: "meadow" },
+    { label: "Nimbus", value: "nimbus" },
+    { label: "Oasis", value: "oasis" },
+    { label: "Pine", value: "pine" },
+    { label: "Quartz", value: "quartz" },
+    { label: "Ridge", value: "ridge" },
+    { label: "Sable", value: "sable" },
   ];
 
   return (
