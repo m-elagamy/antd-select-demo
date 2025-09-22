@@ -49,7 +49,6 @@ export default function Home() {
             <Select
               allowClear
               showSearch
-              size="large"
               placeholder="Select a placeholder option"
               optionFilterProp="label"
               className="w-full"
@@ -85,11 +84,11 @@ export default function Home() {
                 <Select
                   allowClear
                   showSearch
-                  size="large"
                   placeholder={`Select a placeholder option #${idx + 1}`}
                   optionFilterProp="label"
                   className="w-full"
                   options={options}
+                  virtual={false}
                 />
               </div>
             ))}
