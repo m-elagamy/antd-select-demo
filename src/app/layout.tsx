@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import "antd/dist/reset.css";
@@ -16,6 +16,11 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Ant Design Select Demo",
   description: "Ant Design Select Demo",
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 0,
 };
 
 export default function RootLayout({
