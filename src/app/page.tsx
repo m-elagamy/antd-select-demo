@@ -51,6 +51,7 @@ export default function Home() {
               showSearch
               placeholder="Select a placeholder option"
               optionFilterProp="label"
+              size="large"
               className="w-full"
               options={options}
               value={value}
@@ -86,6 +87,7 @@ export default function Home() {
                   showSearch
                   placeholder={`Select a placeholder option #${idx + 1}`}
                   optionFilterProp="label"
+                  size="large"
                   className="w-full"
                   options={options}
                   virtual={false}
